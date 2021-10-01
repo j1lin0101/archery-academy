@@ -1,0 +1,166 @@
+body {
+  font-family: Arial;
+  font-style: regular;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Arial;
+  font-style: bold;
+  font-size: 40px;
+  margin: 0;
+}
+
+h2 {
+  font-family: Arial;
+  font-style: bold;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: Arial;
+  font-style: bold;
+  font-size: 17px;
+}
+
+blockquote, .callout {
+  font-family: Arial;
+  font-size: 30px;
+  margin: 0;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+
+blockquote::after {
+  content: close-quote;
+}
+
+
+header nav {
+  background-color: rgb(3, 163, 223);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+header nav ul {
+  margin: 1rem 5rem;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline;
+}
+
+nav ul li h3 {
+  display: inline;
+}
+
+nav ul li:after {
+  color: white;
+  content: " / ";
+}
+
+nav ul li:last-child:after {
+  color: white;
+  content: "";
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav img {
+  width: 10%;
+  margin: 1rem 5rem;
+}
+
+#address h3 {
+  margin:0;
+  padding: 0.5rem 5rem;
+}
+
+#address {
+  background-color: rgb(68, 68 ,68);
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+.description {
+  width: 40%;
+}
+
+.instructors {
+  clear: both;
+}
+
+aside {
+  width: 25%;
+  border-top: 15px solid rgb(3, 163, 223);
+  color: rgb(3, 163, 223);
+}
+
+aside hr {
+  background-color: rgb(3, 163, 223);
+  height: 1px;
+  border: none;
+}
+
+footer {
+  clear: both;
+}
+
+.instructors {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructor {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: rgb(27, 68, 127);
+  margin: 3rem;
+}
+
+.instructor img {
+  width: 10rem;
+  height: 10rem;
+  align-self: center;
+}
+
+.instructor-description {
+  color: white;
+}
+
+.instructor-description {
+  width: 70%;
+}
+
+.instructor-description hr {
+  background-color: rgb(236, 183, 64);
+  border: none;
+  height: 2px;
+}
+
+.instructor-description h3 {
+  color: rgb(236, 183, 64);
+}
+
+.instructor-fact {
+  margin: 1rem 0rem;
+}
