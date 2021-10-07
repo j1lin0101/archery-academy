@@ -188,3 +188,16 @@ footer ul {
 footer > * {
   margin: 2rem 5rem;
 }
+
+.quote {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10rem;
+}
+
+.quote blockquote{
+  width: 60%;
+}
