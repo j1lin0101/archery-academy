@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  font-style: regular;
+  font-style: normal;
   font-size: 17px;
   margin: 0;
   padding: 0;
@@ -8,20 +8,20 @@ body {
 
 h1 {
   font-family: Arial;
-  font-style: bold;
+  font-weight: bold;
   font-size: 40px;
   margin: 0;
 }
 
 h2 {
   font-family: Arial;
-  font-style: bold;
+  font-weight: bold;
   font-size: 24px;
 }
 
 h3 {
   font-family: Arial;
-  font-style: bold;
+  font-weight: bold;
   font-size: 17px;
 }
 
