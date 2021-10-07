@@ -118,15 +118,13 @@ aside hr {
   border: none;
 }
 
-footer {
-  clear: both;
-}
 
 .instructors {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  margin: 3rem;
 }
 
 .instructor {
@@ -135,6 +133,7 @@ footer {
   justify-content: space-around;
   background-color: rgb(27, 68, 127);
   margin: 3rem;
+  padding: 1rem;
 }
 
 .instructor img {
@@ -163,4 +162,29 @@ footer {
 
 .instructor-fact {
   margin: 1rem 0rem;
+}
+
+footer {
+  clear: both;
+  background-image: url("../images/footerImage.jpg");
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+  padding: 2rem;
+}
+
+footer img {
+  width: 10%;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+footer > * {
+  margin: 2rem 5rem;
 }
