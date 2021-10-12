@@ -215,10 +215,22 @@ footer > * {
   align-items: center;
   text-align: center;
   /* margin: 10rem; */
-  grid-column: 3/11;
+  grid-column: 2/7;
   margin: 8rem 0;
 }
 
 .quote blockquote{
   width: 60%;
+}
+
+.video {
+  grid-column: 7/11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video iframe {
+  width: 50%;
+  height: 50%;
 }
