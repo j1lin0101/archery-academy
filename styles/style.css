@@ -141,6 +141,7 @@ aside hr {
   justify-content: center;
   align-items: center;
   margin: 3rem;
+  grid-column: 3/11;
 }
 
 .instructor {
@@ -214,7 +215,7 @@ footer > * {
   align-items: center;
   text-align: center;
   /* margin: 10rem; */
-  grid-column: 3/10;
+  grid-column: 3/11;
   margin: 8rem 0;
 }
 
