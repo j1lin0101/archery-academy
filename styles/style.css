@@ -52,10 +52,11 @@ blockquote::after {
 header {
   grid-column: 1/span 12;
   grid-row: 1/2;
+  background-color: #035572;
 }
 
 header nav {
-  background-color: rgb(3, 163, 223);
+  background-color: #035572;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -121,13 +122,13 @@ main {
 
 aside {
   grid-column: 8/11;
-  border-top: 15px solid rgb(3, 163, 223);
-  color: rgb(3, 163, 223);
+  border-top: 15px solid #035572;
+  color: #035572;
   margin: 3rem 0;
 }
 
 aside hr {
-  background-color: rgb(3, 163, 223);
+  background-color: #035572;
   height: 1px;
   border: none;
 }
@@ -186,7 +187,7 @@ footer {
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: flex-start;
-  color: white;
+  color: black;
   padding: 2rem;
   grid-column: 1/span 12;
 }
@@ -219,6 +220,14 @@ footer > * {
   width: 60%;
 }
 
+footer ul li::after {
+  color: black;
+}
+
+footer ul li a {
+  color: black;
+}
+
 .video {
   grid-column: 7/11;
   display: flex;
@@ -229,4 +238,14 @@ footer > * {
 .video iframe {
   width: 50%;
   height: 50%;
+}
+
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
 }
